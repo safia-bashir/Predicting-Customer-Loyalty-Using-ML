@@ -395,7 +395,7 @@ plt.show()
 This creates the below plot, which shows us that the highest cross-validated accuracy (0.8635) is actually when we include all eight of our original input variables.  This is marginally higher than 6 included variables, and 7 included variables.  We will continue on with all 8!
 
 <br>
-![alt text](/img/posts/lin-reg-feature-selection-plot.png "Linear Regression Feature Selection Plot")
+![alt text](/img/lin-reg-feature-selection-plot.png "Linear Regression Feature Selection Plot")
 
 <br>
 ### Model Training <a name="linreg-model-training"></a>
@@ -769,7 +769,7 @@ plt.show()
 That code gives us the below plot - which visualises the results!
 
 <br>
-![alt text](/img/posts/regression-tree-max-depth-plot.png "Decision Tree Max Depth Plot")
+![alt text](/img/regression-tree-max-depth-plot.png "Decision Tree Max Depth Plot")
 
 <br>
 In the plot we can see that the *maximum* classification accuracy on the test set is found when applying a *max_depth* value of 7.  However, we lose very little accuracy back to a value of 4, but this would result in a simpler model, that generalised even better on new data.  We make the executive decision to re-train our Decision Tree with a maximum depth of 4!
@@ -799,7 +799,7 @@ tree = plot_tree(regressor,
 That code gives us the below plot:
 
 <br>
-![alt text](/img/posts/regression-tree-nodes-plot.png "Decision Tree Max Depth Plot")
+![alt text](/img/regression-tree-nodes-plot.png "Decision Tree Max Depth Plot")
 
 <br>
 This is a very powerful visual, and one that can be shown to stakeholders in the business to ensure they understand exactly what is driving the predictions.
@@ -1067,10 +1067,10 @@ plt.show()
 That code gives us the below plots - the first being for *Feature Importance* and the second for *Permutation Importance*!
 
 <br>
-![alt text](/img/posts/rf-regression-feature-importance.png "Random Forest Feature Importance Plot")
+![alt text](/img/rf-regression-feature-importance.png "Random Forest Feature Importance Plot")
 <br>
 <br>
-![alt text](/img/posts/rf-regression-permutation-importance.png "Random Forest Permutation Importance Plot")
+![alt text](/img/rf-regression-permutation-importance.png "Random Forest Permutation Importance Plot")
 
 <br>
 The overall story from both approaches is very similar, in that by far, the most important or impactful input variable is *distance_from_store* which is the same insights we derived when assessing our Linear Regression & Decision Tree models.
