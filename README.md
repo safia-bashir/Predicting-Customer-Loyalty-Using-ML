@@ -1,3 +1,4 @@
+# Predicting Customer Loyalty Using ML
 ![title](img/regression-title-img.png)
 
                                    
