@@ -1,4 +1,4 @@
-![](/img/regression-title-img.png)]
+![title](img/regression-title-img.png)]
 
                                    
 Our client, a grocery retailer, hired a market research consultancy to append market level customer loyalty information to the database.  However, only around 50% of the client's customer base could be tagged, thus the other half did not have this information present.  Let's use ML to solve this!
@@ -396,7 +396,7 @@ plt.show()
 This creates the below plot, which shows us that the highest cross-validated accuracy (0.8635) is actually when we include all eight of our original input variables.  This is marginally higher than 6 included variables, and 7 included variables.  We will continue on with all 8!
 
 <br>
-![alt text](/img/lin-reg-feature-selection-plot.png "Linear Regression Feature Selection Plot")
+!["Linear Regression Feature Selection Plot"](img/lin-reg-feature-selection-plot.png)
 
 <br>
 ### Model Training <a name="linreg-model-training"></a>
